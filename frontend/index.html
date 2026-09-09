@@ -1,1 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trench Edge Beta</title>
+<style>
+:root{--bg:#090909;--panel:#111111;--panel2:#181818;--line:#303030;--text:#f7f7f7;--muted:#a8a8a8;--accent:#e11d2e;--green:#35d07f;--yellow:#efc65a;--red:#ff4d5f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif}button,input,select{font:inherit}
+.landing{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:28px;background:radial-gradient(circle at 20% 20%,rgba(121,168,255,.15),transparent 30%),linear-gradient(180deg,#071018,#0a1420)}
+.landing-card{width:min(760px,94vw);text-align:center;padding:50px 30px;border:1px solid var(--line);border-radius:24px;background:#0c151f}
+.logo{width:100px;height:100px;margin:0 auto 20px;border-radius:26px;display:grid;place-items:center;border:1px solid #345477;background:#142536;color:var(--accent);font-size:31px;font-weight:950;letter-spacing:.08em}
+.welcome{font-size:12px;letter-spacing:.18em;color:#91bfff;text-transform:uppercase}.landing h1{font-size:44px;margin:14px 0 20px}
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.btn{border:0;border-radius:12px;padding:14px 22px;font-weight:850;cursor:pointer;background:var(--accent);color:#07111b}.btn.secondary{background:#142230;color:var(--text);border:1px solid var(--line)}
+#appView,#learnView{display:none}
+.learn{max-width:900px;margin:auto;padding:32px}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:12px}.card p{color:#c3d0dc;line-height:1.6}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 24px;border-bottom:1px solid var(--line);background:#0b141d;position:sticky;top:0;z-index:5}.eyebrow{font-size:10px;letter-spacing:.2em;color:var(--accent);font-weight:900}h2{margin:4px 0}.muted{color:var(--muted);font-size:12px}
+.shell{display:grid;grid-template-columns:185px 1fr;min-height:calc(100vh - 76px)}aside{padding:14px 9px;border-right:1px solid var(--line);background:#0b141d}.nav{display:block;width:100%;text-align:left;background:transparent;color:var(--muted);border:0;padding:10px;border-radius:9px;margin-bottom:4px;cursor:pointer}.nav.active,.nav:hover{background:var(--panel2);color:var(--text)}
+main{display:block}.board{padding:15px}.detail{display:none}.toolbar{display:flex;gap:8px;margin-bottom:10px}.toolbar input,.toolbar select{width:100%;background:var(--panel);border:1px solid var(--line);color:var(--text);padding:10px;border-radius:8px}.toolbar select{max-width:150px}
+.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:12px}.chip{background:var(--panel);border:1px solid var(--line);padding:9px;border-radius:9px}.chip b{display:block;font-size:18px}.chip span{font-size:9px;color:var(--muted);text-transform:uppercase}
+.game{padding:12px;border:1px solid var(--line);background:var(--panel);border-radius:12px;margin-bottom:8px;cursor:pointer}.game:hover,.game.active{border-color:#4e719b;background:#132030}.row{display:flex;justify-content:space-between;gap:8px;align-items:center}.match{font-weight:800}.small{font-size:11px;color:var(--muted)}.badge{font-size:9px;padding:5px 7px;border-radius:99px;font-weight:900}.PASS,.QUALIFIED{color:var(--green);border:1px solid rgba(53,208,127,.35)}.FAIL{color:var(--red);border:1px solid rgba(255,115,115,.35)}.NEEDS_DATA{color:var(--yellow);border:1px solid rgba(239,198,90,.35)}
+.hero{background:linear-gradient(#142230,#0f1923);border:1px solid var(--line);border-radius:16px;padding:18px}.score{font-size:26px;font-weight:900;margin:14px 0}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.metric{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px}.metric span{display:block;color:var(--muted);font-size:9px;text-transform:uppercase}.metric b{font-size:18px}.tabs{display:flex;gap:6px;flex-wrap:wrap;margin:15px 0 8px}.tab{background:transparent;color:var(--muted);border:1px solid var(--line);padding:7px 9px;border-radius:8px;cursor:pointer}.tab.active{background:var(--panel2);color:var(--text)}.panel{background:#0d1720;border:1px solid var(--line);border-radius:11px;padding:14px}.item{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:9px 0;font-size:12px}.item:last-child{border:0}.explain{font-size:11px;color:var(--muted);line-height:1.55}
+.win{display:grid;grid-template-columns:150px 1fr;gap:16px;align-items:center;margin-top:18px}.donut{width:140px;height:140px;border-radius:50%;position:relative;display:grid;place-items:center}.donut:after{content:"";position:absolute;inset:17px;border-radius:50%;background:var(--panel)}.donut b{position:relative;z-index:2;font-size:24px}.key{display:grid;gap:8px}.keyrow{display:flex;justify-content:space-between}.swatch{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:7px}
+@media(max-width:1000px){.shell{grid-template-columns:1fr}aside{display:none}main{grid-template-columns:1fr}.board{border-right:0;border-bottom:1px solid var(--line)}}@media(max-width:650px){.metrics{grid-template-columns:repeat(2,1fr)}.win{grid-template-columns:1fr}.donut{margin:auto}}
 
+body{background:#090909}
+.landing{background:radial-gradient(circle at 20% 20%,rgba(225,29,46,.17),transparent 32%),radial-gradient(circle at 80% 70%,rgba(255,255,255,.035),transparent 26%),linear-gradient(180deg,#070707,#0d0d0d)}
+.landing-card{background:#101010;border-color:#303030;box-shadow:0 28px 80px rgba(0,0,0,.48)}
+.logo{background:#171717;border-color:#6d1a24;color:#ff4053}
+.welcome,.eyebrow{color:#ff4053}
+.btn{background:#e11d2e;color:#fff}.btn:hover{background:#f02b3e}
+.btn.secondary{background:#171717;color:#fff;border-color:#383838}.btn.secondary:hover{border-color:#e11d2e}
+header,aside{background:#0d0d0d}
+.nav.active,.nav:hover{background:#1b1113;color:#fff;box-shadow:inset 3px 0 0 #e11d2e}
+.game{background:#121212;border-color:#303030}
+.game:hover{border-color:#63313a}
+.game.expanded{background:#171012;border-color:#e11d2e;box-shadow:0 0 0 1px rgba(225,29,46,.11)}
+.chip,.metric,.panel{background:#141414;border-color:#303030}
+.tab.active{background:#e11d2e;color:#fff;border-color:#e11d2e}
+.tab:hover{border-color:#e11d2e;color:#fff}
+.toolbar input,.toolbar select{background:#121212;border-color:#303030}
+.shell{grid-template-columns:185px minmax(0,1fr)}
+main{display:block!important}
+.board{width:100%!important;max-width:none!important;border-right:0!important}
+.detail{display:none!important}
+.game-detail-inline{margin-top:14px;padding-top:15px;border-top:1px solid #49242a}
+.game-detail-inline .score{font-size:22px;margin:8px 0 12px}
+.game-detail-inline .panel{background:#0e0e0e}
+.expand-cue{font-size:10px;color:#d08b94;margin-top:8px;font-weight:700}
+.game-click-zone{cursor:pointer}
+.swatch{border:1px solid rgba(255,255,255,.18)}
+@media(max-width:1000px){.shell{grid-template-columns:1fr}main{display:block!important}.board{width:100%!important}}
+@media(max-width:700px){.game-detail-inline .metrics{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<section id="landingView" class="landing">
+  <div class="landing-card">
+    <div class="logo">TE</div>
+    <div class="welcome">Welcome to Trench Edge</div>
+    <h1>Trench Edge</h1>
+    <div class="actions">
+      <button id="enterBtn" class="btn">Enter Command Center</button>
+      <button id="learnBtn" class="btn secondary">How Trench Edge Works</button>
+    </div>
+  </div>
+</section>
+
+<section id="learnView">
+  <div class="learn">
+    <button id="backBtn" class="btn secondary">← Back</button>
+    <h1>How Trench Edge Works</h1>
+    <div class="card"><h3>What is Trench Edge?</h3><p>Trench Edge is a college-football prediction and market-analysis model. It estimates scoring, compares its projection with sportsbook prices, and decides whether the difference is strong and reliable enough to qualify as a wager.</p></div>
+    <div class="card"><h3>How are picks made?</h3><p>TE combines team efficiency, rushing and passing performance, line play, pace, explosiveness, first-down creation, turnovers, special teams, home field, weather, injuries, roster continuity, opponent context, data quality, and market price. A prediction can look strong and still be a pass if the betting price does not offer enough value.</p></div>
+    <div class="card"><h3>What does risk mean?</h3><p>Risk is the chance that realistic game events push the outcome away from the central projection. Pressure, sacks, turnovers, stalled drives, short fields, special-teams mistakes, injuries, weather, or unusual game scripts can all change a game. Risk does not mean the model expects to be wrong. It measures how vulnerable a prediction is to plausible sources of variance.</p></div>
+  </div>
+</section>
+
+<section id="appView">
+<header><div><div class="eyebrow">TRENCH EDGE</div><h2>Week 2 Command Center</h2><div id="statusText" class="muted">Loading matchup data...</div></div><button id="homeBtn" class="btn secondary">Home</button></header>
+<div class="shell">
+<aside>
+  <button class="nav active" data-view="all">Game Board</button>
+  <button class="nav" data-view="qualified">Qualified Bets</button>
+  <button class="nav" data-view="value">Best Value</button>
+  <button class="nav" data-view="fbs">FBS</button>
+  <button class="nav" data-view="fcs">FCS</button>
+</aside>
+<main>
+<section class="board">
+  <div class="toolbar"><input id="search" placeholder="Search teams"><select id="sort"><option value="edge">Sort by value</option><option value="dqs">Sort by data quality</option><option value="ocrs">Sort by risk</option></select></div>
+  <div id="summary" class="summary"></div>
+  <div id="games"></div>
+</section>
+
+</main>
+</div>
+</section>
+<script src="app_fixed.js"></script>
+</body>
+</html>
