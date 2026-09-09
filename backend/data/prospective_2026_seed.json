@@ -1,0 +1,58 @@
+{
+  "version": "2026_PROSPECTIVE_SEED_2026-09-08",
+  "notes": "Only authenticated prior TE selections/results preserved in accessible project context are included. Unknown historical legs are intentionally not invented.",
+  "summary": {
+    "raw_predictions": {
+      "correct": 8,
+      "incorrect": 8
+    },
+    "wager_legs": {
+      "wins": 4,
+      "losses": 4
+    }
+  },
+  "known_records": [
+    {
+      "market": "spread",
+      "selection": "San Jose State +2.5",
+      "result": "WIN",
+      "final": "San Jose State 27, Eastern Michigan 21"
+    },
+    {
+      "market": "spread",
+      "selection": "UTEP +38.5",
+      "result": "LOSS",
+      "final": "Oklahoma 51, UTEP 0"
+    },
+    {
+      "market": "total",
+      "selection": "Miami-Stanford Over 47.5",
+      "result": "WIN",
+      "final": "Miami 45, Stanford 6"
+    },
+    {
+      "market": "spread",
+      "selection": "USC -21.5",
+      "result": "WIN",
+      "final": "USC 39, Fresno State 0"
+    },
+    {
+      "market": "spread",
+      "selection": "Texas State +30.5",
+      "result": "LOSS",
+      "final": "Texas 59, Texas State 7"
+    },
+    {
+      "market": "spread",
+      "selection": "Louisville +6.5/+7",
+      "result": "WIN",
+      "final": "Ole Miss 41, Louisville 38"
+    },
+    {
+      "market": "spread",
+      "selection": "Ball State +50.5",
+      "result": "LOSS",
+      "final": "Ohio State 56, Ball State 3"
+    }
+  ]
+}

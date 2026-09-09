@@ -1,0 +1,12 @@
+{
+  "status": "LOCKED_FORMULAS_REQUIRED",
+  "OCRS": {"mode": "external_until_formula_recovered"},
+  "DQS": {"mode": "external_until_formula_recovered", "locked_minimum": 60},
+  "DFR": {"mode": "external_until_formula_recovered"},
+  "FPSE": {"mode": "external_until_formula_recovered"},
+  "market_gates": {
+    "spread_or_total_min_points": 2.5,
+    "preferred_points": 3.0,
+    "moneyline_probability_advantage": 0.05
+  }
+}

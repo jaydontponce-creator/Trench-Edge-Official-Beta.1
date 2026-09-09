@@ -1,0 +1,18 @@
+{
+  "version": "TE lineage recovery 2026-09-08",
+  "source": "archived te_v2_predictions.csv (15,544 rows)",
+  "standardization": {
+    "method": "season-week cross-sectional z-score",
+    "std": "population (ddof=0)",
+    "verification": "matches archived z_* fields to floating-point precision"
+  },
+  "reliability": "n/(n+3)",
+  "offseason_prior": "0.5 * previous-season team mean + 0.5 * previous-season global mean",
+  "inseason_prior": "Reliability * current-season team mean + (1-Reliability) * offseason prior",
+  "RunOTE": "2.50*z_off_run_line + 1.25*z_off_run_stuffavoid + 1.25*z_off_run_power",
+  "RunDTE": "2.50*z_def_run_line + 1.25*z_def_run_stuff + 1.25*z_def_run_power",
+  "PassOTE": "3.35*z_off_pass_protect + 1.65*z_off_havoc_avoid",
+  "PassDTE": "3.35*z_def_pass_rush + 1.65*z_def_havoc",
+  "RunMOTE": "RunOTE - OppRunDTE",
+  "PassMOTE": "PassOTE - OppPassDTE"
+}

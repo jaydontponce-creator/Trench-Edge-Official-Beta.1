@@ -1,0 +1,1052 @@
+{
+  "games": [
+    {
+      "id": "florida-a-m-miami-fl",
+      "away": "Florida A&M",
+      "home": "Miami (FL)",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "richmond-nc-state",
+      "away": "Richmond",
+      "home": "NC State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "villanova-louisville",
+      "away": "Villanova",
+      "home": "Louisville",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "norfolk-state-virginia",
+      "away": "Norfolk State",
+      "home": "Virginia",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "rutgers-boston-college",
+      "away": "Rutgers",
+      "home": "Boston College",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "missouri-kansas",
+      "away": "Missouri",
+      "home": "Kansas",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "penn-state-temple",
+      "away": "Penn State",
+      "home": "Temple",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "arizona-state-texas-a-m",
+      "away": "Arizona State",
+      "home": "Texas A&M",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "oregon-oklahoma-state",
+      "away": "Oregon",
+      "home": "Oklahoma State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "washington-state-kansas-state",
+      "away": "Washington State",
+      "home": "Kansas State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "old-dominion-virginia-tech",
+      "away": "Old Dominion",
+      "home": "Virginia Tech",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "wofford-kent-state",
+      "away": "Wofford",
+      "home": "Kent State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "wake-forest-purdue",
+      "away": "Wake Forest",
+      "home": "Purdue",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "etsu-north-carolina",
+      "away": "ETSU",
+      "home": "North Carolina",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "oklahoma-michigan",
+      "away": "Oklahoma",
+      "home": "Michigan",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "howard-indiana",
+      "away": "Howard",
+      "home": "Indiana",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "appalachian-state-east-carolina",
+      "away": "Appalachian State",
+      "home": "East Carolina",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "south-florida-army",
+      "away": "South Florida",
+      "home": "Army",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "western-kentucky-georgia",
+      "away": "Western Kentucky",
+      "home": "Georgia",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "ut-martin-west-virginia",
+      "away": "UT Martin",
+      "home": "West Virginia",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "holy-cross-miami-oh",
+      "away": "Holy Cross",
+      "home": "Miami (OH)",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "colgate-central-michigan",
+      "away": "Colgate",
+      "home": "Central Michigan",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "stony-brook-ball-state",
+      "away": "Stony Brook",
+      "home": "Ball State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "utah-state-washington",
+      "away": "Utah State",
+      "home": "Washington",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "weber-state-colorado",
+      "away": "Weber State",
+      "home": "Colorado",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "arizona-byu",
+      "away": "Arizona",
+      "home": "BYU",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "ulm-uab",
+      "away": "ULM",
+      "home": "UAB",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "utsa-texas-state",
+      "away": "UTSA",
+      "home": "Texas State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "mississippi-state-minnesota",
+      "away": "Mississippi State",
+      "home": "Minnesota",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "duke-illinois",
+      "away": "Duke",
+      "home": "Illinois",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "ccsu-toledo",
+      "away": "CCSU",
+      "home": "Toledo",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "california-syracuse",
+      "away": "California",
+      "home": "Syracuse",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "ucf-pittsburgh",
+      "away": "UCF",
+      "home": "Pittsburgh",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "rice-notre-dame",
+      "away": "Rice",
+      "home": "Notre Dame",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "eastern-michigan-michigan-state",
+      "away": "Eastern Michigan",
+      "home": "Michigan State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "sacred-heart-umass",
+      "away": "Sacred Heart",
+      "home": "UMass",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "alabama-kentucky",
+      "away": "Alabama",
+      "home": "Kentucky",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "wagner-james-madison",
+      "away": "Wagner",
+      "home": "James Madison",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "maryland-uconn",
+      "away": "Maryland",
+      "home": "UConn",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "robert-morris-akron",
+      "away": "Robert Morris",
+      "home": "Akron",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "unlv-north-texas",
+      "away": "UNLV",
+      "home": "North Texas",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "northern-colorado-wyoming",
+      "away": "Northern Colorado",
+      "home": "Wyoming",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "mercyhurst-new-mexico",
+      "away": "Mercyhurst",
+      "home": "New Mexico",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "alabama-state-troy",
+      "away": "Alabama State",
+      "home": "Troy",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "uc-davis-smu",
+      "away": "UC Davis",
+      "home": "SMU",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "delaware-vanderbilt",
+      "away": "Delaware",
+      "home": "Vanderbilt",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "campbell-florida",
+      "away": "Campbell",
+      "home": "Florida",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "buffalo-fiu",
+      "away": "Buffalo",
+      "home": "FIU",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "gardner-webb-liberty",
+      "away": "Gardner-Webb",
+      "home": "Liberty",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "jacksonville-state-ohio",
+      "away": "Jacksonville State",
+      "home": "Ohio",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "memphis-boise-state",
+      "away": "Memphis",
+      "home": "Boise State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "monmouth-western-michigan",
+      "away": "Monmouth",
+      "home": "Western Michigan",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "lindenwood-missouri-state",
+      "away": "Lindenwood",
+      "home": "Missouri State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "south-alabama-tulane",
+      "away": "South Alabama",
+      "home": "Tulane",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "tulsa-sam-houston",
+      "away": "Tulsa",
+      "home": "Sam Houston",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "illinois-state-northern-illinois",
+      "away": "Illinois State",
+      "home": "Northern Illinois",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "bowling-green-nebraska",
+      "away": "Bowling Green",
+      "home": "Nebraska",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "southern-utah-colorado-state",
+      "away": "Southern Utah",
+      "home": "Colorado State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "southern-houston",
+      "away": "Southern",
+      "home": "Houston",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "towson-south-carolina",
+      "away": "Towson",
+      "home": "South Carolina",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "middle-tennessee-marshall",
+      "away": "Middle Tennessee",
+      "home": "Marshall",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "georgia-state-kennesaw-state",
+      "away": "Georgia State",
+      "home": "Kennesaw State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "tennessee-georgia-tech",
+      "away": "Tennessee",
+      "home": "Georgia Tech",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "western-carolina-cincinnati",
+      "away": "Western Carolina",
+      "home": "Cincinnati",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "west-georgia-arkansas-state",
+      "away": "West Georgia",
+      "home": "Arkansas State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "western-illinois-wisconsin",
+      "away": "Western Illinois",
+      "home": "Wisconsin",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "san-diego-state-ucla",
+      "away": "San Diego State",
+      "home": "UCLA",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "louisiana-tech-lsu",
+      "away": "Louisiana Tech",
+      "home": "LSU",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "texas-tech-oregon-state",
+      "away": "Texas Tech",
+      "home": "Oregon State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "ohio-state-texas",
+      "away": "Ohio State",
+      "home": "Texas",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "iowa-state-iowa",
+      "away": "Iowa State",
+      "home": "Iowa",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "navy-fau",
+      "away": "Navy",
+      "home": "FAU",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "fordham-coastal-carolina",
+      "away": "Fordham",
+      "home": "Coastal Carolina",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "georgia-southern-clemson",
+      "away": "Georgia Southern",
+      "home": "Clemson",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "southern-miss-auburn",
+      "away": "Southern Miss",
+      "home": "Auburn",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "charlotte-ole-miss",
+      "away": "Charlotte",
+      "home": "Ole Miss",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "prairie-view-baylor",
+      "away": "Prairie View",
+      "home": "Baylor",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "grambling-tcu",
+      "away": "Grambling",
+      "home": "TCU",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "texas-southern-utep",
+      "away": "Texas Southern",
+      "home": "UTEP",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "cal-poly-san-jose-state",
+      "away": "Cal Poly",
+      "home": "San Jose State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "north-dakota-state-air-force",
+      "away": "North Dakota State",
+      "home": "Air Force",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "arkansas-utah",
+      "away": "Arkansas",
+      "home": "Utah",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "sacramento-state-fresno-state",
+      "away": "Sacramento State",
+      "home": "Fresno State",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "montana-state-nevada",
+      "away": "Montana State",
+      "home": "Nevada",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "louisiana-usc",
+      "away": "Louisiana",
+      "home": "USC",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "new-mexico-state-hawaii",
+      "away": "New Mexico State",
+      "home": "Hawaii",
+      "classification": "FBS / cross-division",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "ualbany-liu",
+      "away": "UAlbany",
+      "home": "LIU",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "dickinson-college-davidson",
+      "away": "Dickinson College",
+      "home": "Davidson",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "elon-rhode-island",
+      "away": "Elon",
+      "home": "Rhode Island",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "thomas-more-dayton",
+      "away": "Thomas More",
+      "home": "Dayton",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "marist-lafayette",
+      "away": "Marist",
+      "home": "Lafayette",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "kentucky-christian-chicago-state",
+      "away": "Kentucky Christian",
+      "home": "Chicago State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "bucknell-vmi",
+      "away": "Bucknell",
+      "home": "VMI",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "drake-northern-iowa",
+      "away": "Drake",
+      "home": "Northern Iowa",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "duquesne-youngstown-state",
+      "away": "Duquesne",
+      "home": "Youngstown State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "eastern-washington-south-dakota",
+      "away": "Eastern Washington",
+      "home": "South Dakota",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "northern-michigan-st-thomas-mn",
+      "away": "Northern Michigan",
+      "home": "St. Thomas (MN)",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "william-mary-lehigh",
+      "away": "William & Mary",
+      "home": "Lehigh",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "bowie-state-delaware-state",
+      "away": "Bowie State",
+      "home": "Delaware State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "utah-tech-montana",
+      "away": "Utah Tech",
+      "home": "Montana",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "lamar-idaho",
+      "away": "Lamar",
+      "home": "Idaho",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "lincoln-university-pa-mississippi-valley-state",
+      "away": "Lincoln University (PA)",
+      "home": "Mississippi Valley State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "stetson-bethune-cookman",
+      "away": "Stetson",
+      "home": "Bethune-Cookman",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "merrimack-maine",
+      "away": "Merrimack",
+      "home": "Maine",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "morehead-state-austin-peay",
+      "away": "Morehead State",
+      "home": "Austin Peay",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "incarnate-word-northern-arizona",
+      "away": "Incarnate Word",
+      "home": "Northern Arizona",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "bryant-hampton",
+      "away": "Bryant",
+      "home": "Hampton",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "charleston-southern-the-citadel",
+      "away": "Charleston Southern",
+      "home": "The Citadel",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "franklin-college-butler",
+      "away": "Franklin College",
+      "home": "Butler",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "furman-mercer",
+      "away": "Furman",
+      "home": "Mercer",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "north-carolina-a-t-nc-central",
+      "away": "North Carolina A&T",
+      "home": "NC Central",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "san-diego-idaho-state",
+      "away": "San Diego",
+      "home": "Idaho State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "stonehill-new-hampshire",
+      "away": "Stonehill",
+      "home": "New Hampshire",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "chattanooga-eastern-kentucky",
+      "away": "Chattanooga",
+      "home": "Eastern Kentucky",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "virginia-state-south-carolina-state",
+      "away": "Virginia State",
+      "home": "South Carolina State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "virginia-lynchburg-morgan-state",
+      "away": "Virginia-Lynchburg",
+      "home": "Morgan State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "arkansas-baptist-houston-christian",
+      "away": "Arkansas Baptist",
+      "home": "Houston Christian",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "arkansas-pine-bluff-alcorn-state",
+      "away": "Arkansas-Pine Bluff",
+      "home": "Alcorn State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "central-oklahoma-central-arkansas",
+      "away": "Central Oklahoma",
+      "home": "Central Arkansas",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "indiana-state-eastern-illinois",
+      "away": "Indiana State",
+      "home": "Eastern Illinois",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "north-alabama-southeastern-louisiana",
+      "away": "North Alabama",
+      "home": "Southeastern Louisiana",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "new-haven-south-dakota-state",
+      "away": "New Haven",
+      "home": "South Dakota State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "northwestern-state-east-texas-a-m",
+      "away": "Northwestern State",
+      "home": "East Texas A&M",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "samford-tennessee-tech",
+      "away": "Samford",
+      "home": "Tennessee Tech",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "southeast-missouri-state-southern-illinois",
+      "away": "Southeast Missouri State",
+      "home": "Southern Illinois",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "tennessee-state-alabama-a-m",
+      "away": "Tennessee State",
+      "home": "Alabama A&M",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "tarleton-state-mcneese-state",
+      "away": "Tarleton State",
+      "home": "McNeese State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "ut-rio-grande-valley-nicholls-state",
+      "away": "UT-Rio Grande Valley",
+      "home": "Nicholls State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "valparaiso-murray-state",
+      "away": "Valparaiso",
+      "home": "Murray State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "stephen-f-austin-abilene-christian",
+      "away": "Stephen F. Austin",
+      "home": "Abilene Christian",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    },
+    {
+      "id": "north-dakota-portland-state",
+      "away": "North Dakota",
+      "home": "Portland State",
+      "classification": "FCS",
+      "week": 2,
+      "season": 2026
+    }
+  ]
+}

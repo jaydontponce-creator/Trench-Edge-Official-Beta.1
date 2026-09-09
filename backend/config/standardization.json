@@ -1,0 +1,19 @@
+{
+  "status": "REQUIRED_BEFORE_RAW_INPUT_MODE",
+  "description": "Continuous V4 inputs must be standardized before entering the canonical equation. Populate the locked training-population means and standard deviations here. Until then, /predict expects already-standardized feature values.",
+  "features": {
+    "defensive_weakness": null,
+    "off_epa": null,
+    "defensive_turnover_generation": null,
+    "pass_epa": null,
+    "opp_special_teams": null,
+    "run_mote": null,
+    "pace": null,
+    "special_teams": null,
+    "first_down_rate": null,
+    "pass_mote": null,
+    "explosiveness": null,
+    "rush_epa": null,
+    "opp_turnover_generation": null
+  }
+}

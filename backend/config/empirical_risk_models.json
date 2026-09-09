@@ -1,0 +1,142 @@
+{
+  "version": "TE_EMPIRICAL_RISK_E1",
+  "status": "EXPERIMENTAL",
+  "effective_date": "2026-09-08",
+  "versioning_note": "This empirically defines previously unauthenticated DFR/FPSE numeric conversions. It does not rewrite the canonical V4.1 raw scoring equation. Use as OCRS experimental overlay E1 until prospectively validated.",
+  "dfr": {
+    "meaning": "Probability (0-100) of a severe drive-failure game, defined by the top quartile of a realized proxy combining low EPA, low first-down creation, sacks allowed, and havoc suffered.",
+    "realized_proxy_weights": {
+      "low_epa": 0.35,
+      "low_first_down_rate": 0.25,
+      "sack_susceptibility": 0.2,
+      "havoc_susceptibility": 0.2
+    },
+    "event_threshold": 67.23916330645162,
+    "model": {
+      "features": [
+        "pre_off_epa",
+        "pre_off_pass_epa",
+        "pre_off_rush_epa",
+        "pre_off_firstdown",
+        "pre_off_pass_protect",
+        "pre_off_havoc_avoid",
+        "RunMOTE",
+        "PassMOTE",
+        "Reliability"
+      ],
+      "imputer_medians": [
+        0.0379379511689642,
+        0.06053678799413545,
+        0.0197463409836325,
+        0.249302187457842,
+        -0.06051147024484995,
+        -0.1218318970843376,
+        0.2069043862058931,
+        0.4155908050088666,
+        0.625
+      ],
+      "scaler_mean": [
+        0.04084212163291217,
+        0.06201688574050843,
+        0.019444681206195927,
+        0.24940848644029617,
+        -0.06275257390521094,
+        -0.12262872119437591,
+        3.26899001695185e-16,
+        1.460157265946918e-16,
+        0.5383027680699874
+      ],
+      "scaler_scale": [
+        0.09261850323341045,
+        0.14130643500531384,
+        0.08823263846826959,
+        0.02091776494600017,
+        0.020145953317544672,
+        0.03056791554700251,
+        5.7795815776689885,
+        6.24898072814567,
+        0.23162913870635293
+      ],
+      "intercept": -1.2334710880592776,
+      "coefficients": [
+        -0.36205764438921184,
+        -0.026878695218186956,
+        0.14595584727345912,
+        -0.1427019093925422,
+        0.10141318379606978,
+        0.0075257268593387355,
+        -0.2697051563210355,
+        -0.41545321384442646,
+        -0.013750559066319003
+      ]
+    },
+    "holdout_2025": {
+      "n": 1524,
+      "base_rate": 0.24278215223097113,
+      "brier": 0.16766154243178968,
+      "log_loss": 0.5094354417761527,
+      "auc": 0.6927490748981215
+    }
+  },
+  "fpse": {
+    "meaning": "Probability (0-100) of severe field-position/special-teams exposure, defined by the top quartile of a realized proxy using special-teams EPA, punt/kickoff EPA, opponent takeaways, and opponent havoc.",
+    "realized_proxy_weights": {
+      "special_teams_epa": 0.3,
+      "punt_epa": 0.15,
+      "kickoff_epa": 0.1,
+      "opponent_takeaways": 0.25,
+      "opponent_havoc": 0.2
+    },
+    "event_threshold": 62.81250000000001,
+    "model": {
+      "features": [
+        "st_epa_pp_pre",
+        "punt_epa_pp_pre",
+        "ko_epa_pp_pre",
+        "havoc_total_rate_pre",
+        "takeaway_rate_pre",
+        "Reliability"
+      ],
+      "imputer_medians": [
+        0.031251149160190526,
+        0.12392442221818147,
+        -0.038790209643832715,
+        0.12608226509424736,
+        0.016934885412687867,
+        0.625
+      ],
+      "scaler_mean": [
+        0.029731100015409937,
+        0.12248605619269957,
+        -0.03475916348311916,
+        0.12462370092362451,
+        0.017257860765792197,
+        0.5343330948875578
+      ],
+      "scaler_scale": [
+        0.11697802245115553,
+        0.18376042929021652,
+        0.16236196526112912,
+        0.029316447694821706,
+        0.005611033769759989,
+        0.25787542896656807
+      ],
+      "intercept": -1.1385665527570537,
+      "coefficients": [
+        -0.129394359787547,
+        -0.09455902852678784,
+        -0.03285195442839574,
+        0.13393892592798334,
+        0.06747632002301653,
+        -0.11510933767222707
+      ]
+    },
+    "holdout_2025": {
+      "n": 1912,
+      "base_rate": 0.24947698744769875,
+      "brier": 0.18270725593626483,
+      "log_loss": 0.5496935052636188,
+      "auc": 0.6120059313800685
+    }
+  }
+}
