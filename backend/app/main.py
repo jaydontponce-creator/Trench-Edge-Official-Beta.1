@@ -12,6 +12,8 @@ from .store import load_inputs, load_outputs, save_outputs
 from .risk import DQS_WEIGHTS, OCRS_WEIGHTS
 from .empirical_risk import metadata as empirical_risk_metadata
 from .results import grade_prediction
+from .board_service import complete_week_board
+from .live_refresh import fast_refresh
 
 app = FastAPI(title="Trench Edge API", version="4.1-v5-refresh")
 app.add_middleware(
@@ -53,18 +55,11 @@ def refresh_week_endpoint(year:int, week:int):
 
 @app.get("/api/v1/week-board/{week}")
 def week_board(week:int):
-    import json
-    p=Path(__file__).resolve().parents[1]/"data"/f"week{week}_outputs.json"
-    if p.exists():
-        payload=json.loads(p.read_text())
-        if isinstance(payload, dict) and payload.get("games"):
-            return payload
-        if isinstance(payload, list) and payload:
-            return {"games":payload,"week":week,"mode":"calculated"}
-    demo=Path(__file__).resolve().parents[1]/"data"/f"demo_week{week}_board.json"
-    if demo.exists():
-        return json.loads(demo.read_text())
-    return {"games":[],"status":"NOT_REFRESHED","week":week}
+    return complete_week_board(week)
+
+@app.get("/api/v1/live-board/{week}")
+def live_board(week:int, force:bool=False):
+    return fast_refresh(week=week,max_age_seconds=60,force=force)
 
 @app.post("/api/v1/predict", response_model=MatchupResponse)
 def predict(req: MatchupRequest):
