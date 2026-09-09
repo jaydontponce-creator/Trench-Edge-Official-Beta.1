@@ -1,0 +1,42 @@
+{
+  "game_id": "demo-away-home",
+  "away_team": "Away Team",
+  "home_team": "Home Team",
+  "away_features": {
+    "defensive_weakness": 0.20,
+    "off_epa": 0.10,
+    "home_field": 0,
+    "defensive_turnover_generation": 0.05,
+    "pass_epa": 0.10,
+    "opp_special_teams": 0.00,
+    "run_mote": -0.10,
+    "pace": 0.15,
+    "special_teams": 0.05,
+    "first_down_rate": 0.10,
+    "pass_mote": 0.10,
+    "explosiveness": 0.20,
+    "rush_epa": 0.05,
+    "opp_turnover_generation": 0.10,
+    "weather_adjustment": 0
+  },
+  "home_features": {
+    "defensive_weakness": 0.50,
+    "off_epa": 0.60,
+    "home_field": 1,
+    "defensive_turnover_generation": 0.20,
+    "pass_epa": 0.55,
+    "opp_special_teams": -0.10,
+    "run_mote": 0.30,
+    "pace": 0.20,
+    "special_teams": 0.15,
+    "first_down_rate": 0.35,
+    "pass_mote": 0.40,
+    "explosiveness": 0.60,
+    "rush_epa": 0.20,
+    "opp_turnover_generation": -0.10,
+    "weather_adjustment": 0
+  },
+  "market": {"home_spread": -3.5, "total": 55.5, "timestamp": "2026-09-08T17:26:00-05:00"},
+  "derived_metrics": {"ocrs": 20, "dqs": 82, "dfr": 24, "fpse": 76, "source": "external"},
+  "metadata": {"snapshot":"2026-09-08 17:26 CT","market_label":"Home Team -3.5 • O/U 55.5"}
+}
