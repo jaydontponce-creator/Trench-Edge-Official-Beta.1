@@ -1,0 +1,10 @@
+{
+  "source": "manual",
+  "teams": {
+    "Example Team": {
+      "status": "monitoring",
+      "impact_points": 0.0,
+      "notes": "Replace with verified availability information."
+    }
+  }
+}
