@@ -1,0 +1,17 @@
+
+@media(max-width:900px){
+ .app-shell{grid-template-columns:1fr}.sidebar{display:none}
+ .main{padding:14px}.app-header{align-items:flex-start}.app-header h1{font-size:24px}
+}
+@media(max-width:600px){
+ .app-header{padding:12px;gap:8px}.app-header h1{font-size:20px}
+ .header-actions{gap:5px}.header-actions .btn,.header-actions .control{padding:9px 10px;font-size:11px}
+ .header-actions .control{max-width:132px}
+ .main{padding:10px}.toolbar{grid-template-columns:1fr 115px;gap:7px}.control{padding:10px}
+ .summary-grid{gap:6px}.summary-card{padding:10px}.summary-card b{font-size:19px}
+ .game-summary{padding:12px}.matchup{font-size:15px}.row{align-items:flex-start}
+ .metrics{grid-template-columns:repeat(2,1fr)}
+ .win-grid{grid-template-columns:1fr}.donut{margin:auto}
+ .drawer{width:100vw;max-width:none}.score-list{padding:8px}.helmet-svg{width:70px;height:50px}
+ .team-side{min-width:0}.score-meta{font-size:9px}
+}
